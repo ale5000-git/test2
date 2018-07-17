@@ -1,6 +1,7 @@
 # Set the default behavior
 * encoding=UTF-8
-* binary
+#* binary
+* text eol=lf
 
 # Git specific files
 .gitattributes text eol=lf
