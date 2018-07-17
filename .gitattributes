@@ -8,13 +8,13 @@
 # Configuration files
 *.conf text eol=lf
 *.yml text eol=lf
+*.prop text eol=lf
 
 # Scripts
 *.sh text eol=lf
 *.bat text eol=crlf
 *.cmd text eol=crlf
-update-binary text eol=lf
-updater-script text eol=lf
+META-INF/** text eol=lf
 
 # Tools
 *.exe binary
