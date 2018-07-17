@@ -1,25 +1,22 @@
 # Set the default behavior
-* text eol=lf encoding=utf-8
-
-# Git specific files
-.gitattributes text eol=lf
-.gitignore text eol=lf
+* text=auto encoding=utf-8
 
 # Configuration files
 *.conf text eol=lf
 *.yml text eol=lf
 *.prop text eol=lf
 
+# Source files
+*.c text eol=lf
+*.cpp text eol=lf
+*.py text eol=lf
+*.lua text eol=lf
+
 # Scripts
+META-INF/** text eol=lf
 *.sh text eol=lf
 *.bat text eol=crlf
 *.cmd text eol=crlf
-META-INF/** text eol=lf
-
-# Tools
-*.exe binary
-busybox* binary
-keycheck* binary
 
 # Documentation
 *.spdx text eol=lf
@@ -29,13 +26,12 @@ keycheck* binary
 *.html text eol=lf
 *.css text eol=lf
 
-VERSION text eol=lf
+# Tools
+*.exe binary
+busybox* binary
+keycheck* binary
 
-# Source files
-*.py text eol=lf
-*.lua text eol=lf
-
-# Apps
+# Apps / Libraries
 *.apk binary
 *.jar binary
 
