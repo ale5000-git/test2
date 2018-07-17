@@ -1,7 +1,5 @@
 # Set the default behavior
-* encoding=UTF-8
-#* binary
-* text=auto eol=lf
+* text eol=lf encoding=utf-8
 
 # Git specific files
 .gitattributes text eol=lf
@@ -20,19 +18,16 @@ updater-script text eol=lf
 
 # Tools
 *.exe binary
+busybox* binary
+keycheck* binary
 
 # Documentation
 *.spdx text eol=lf
 *.md text eol=lf
-*.rst text eol=lf encoding=UTF-8
+*.rst text eol=lf
 *.xml text eol=lf
-*.html text eol=lf
+*.html text
 *.css text eol=lf
-
-*.doc binary diff=astextplain
-*.docx binary diff=astextplain
-*.pdf binary diff=astextplain
-*.rtf binary diff=astextplain
 
 VERSION text eol=lf
 
